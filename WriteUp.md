@@ -104,9 +104,43 @@ Here are some potential shortcomings that need to be improved. As also shown in 
 
 * Many parameters like region of interest, threshold, etc are tuned specifically for test images, test videos and are currently hard-coded in the project. It is not efficient and can't be used in the images/videos with diffrent frame size.
 
+	*For example:*
+
+	Below video is generated after applying current process with challenge video (challenge.mp4, frame size 720 x 1280). The full lines showing in this video are drawn in the region of interest specific for frame size 540 x 960 and not correct when applying to 720 x 1280.
+
+  <figure class="video_container">
+    <video controls="true" allowfullscreen="true" width="480" title="Output video after applying current process to challenge video">
+      <source src="test_videos_output/challenge.mp4" type="video/mp4">
+    </video>
+  </figure>
+
 * Even with the same frame size, current pipeline/process is weak when using with images/videos having some unexpected objects (or noises) like tree shadow, car's front side, etc
 
+	*For example:*
+
+	Below video is generated after applying current process with challenge video after resizing it to 540 x 960. The full lines are drawing within expected region but the slope is incorrect and doesn't fit actual lines because it is affected much by the noises.
+
+  <figure class="video_container">
+    <video controls="true" allowfullscreen="true" width="480">
+      <source src="test_videos_output/challenge_resize.mp4" type="video/mp4">
+    </video>
+  </figure>
+
+  It can be observed by applying the pipeline to a specific frame from challenge video as below.
+
+  <img src="test_images_output/challenge_image.jpg" width="400" title="Challenge image" />
+  <img src="test_images_output/challenge_image_segment.jpg" width="400" title="Challenge image with line segments" />
+
 * In comparison with reference video (P1_example.mp4, right one), the full lines shown in my output video (left one) is not stable enough. It may be caused by the process to select the reference point to draw the full line with average slope. Currently, I only choose it roughly by selecting the middle point of the first segment from the filtered data, which is not good enough to calculate the full line and represent it well in some cases.
+
+  <figure class="video_container">
+    <video controls="true" allowfullscreen="true" width="320" title="With Full Lines">
+      <source src="test_videos_output/solidWhiteRight.mp4" type="video/mp4">
+    </video>
+    <video controls="true" allowfullscreen="true" width="320" title="Reference video">
+      <source src="examples/P1_example.mp4" type="video/mp4">
+    </video>
+  </figure>
 
 ### 3. Suggest possible improvements to your pipeline
 
