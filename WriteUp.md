@@ -78,6 +78,12 @@ https://github.com/udacity/CarND-LaneLines-P1
 
 * From /test_videos/solidWhiteRight.mp4
 
+	*Path to the videos:*
+
+	/test_videos_output/solidWhiteRight_segment.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/solidWhiteRight_segment.mp4)
+
+	/test_videos_output/solidWhiteRight.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/solidWhiteRight.mp4)
+
   <figure class="video_container">
     <video controls="true" allowfullscreen="true" width="320" title="With Line Segments">
       <source src="test_videos_output/solidWhiteRight_segment.mp4" type="video/mp4">
@@ -88,6 +94,12 @@ https://github.com/udacity/CarND-LaneLines-P1
   </figure>
 
 * From /test_videos/solidYellowLeft.mp4
+
+	*Path to the videos:*
+
+	/test_videos_output/solidYellowLeft_segment.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/solidYellowLeft_segment.mp4)
+
+	/test_videos_output/solidYellowLeft.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/solidYellowLeft.mp4)
 
   <figure class="video_container">
     <video controls="true" allowfullscreen="true" width="320"title="With Line Segments">
@@ -108,6 +120,8 @@ Here are some potential shortcomings that need to be improved. As also shown in 
 
 	Below video is generated after applying current process with challenge video (challenge.mp4, frame size 720 x 1280). The full lines showing in this video are drawn in the region of interest specific for frame size 540 x 960 and not correct when applying to 720 x 1280.
 
+	(*Path to the video:* /test_videos_output/challenge.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge.mp4))
+
   <figure class="video_container">
     <video controls="true" allowfullscreen="true" width="480" title="Output video after applying current process to challenge video">
       <source src="test_videos_output/challenge.mp4" type="video/mp4">
@@ -119,6 +133,8 @@ Here are some potential shortcomings that need to be improved. As also shown in 
 	*For example:*
 
 	Below video is generated after applying current process with challenge video after resizing it to 540 x 960. The full lines are drawing within expected region but the slope is incorrect and doesn't fit actual lines because it is affected much by the noises.
+
+	(*Path to the video:* /test_videos_output/challenge_resize.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize.mp4))
 
   <figure class="video_container">
     <video controls="true" allowfullscreen="true" width="480">
@@ -132,6 +148,12 @@ Here are some potential shortcomings that need to be improved. As also shown in 
   <img src="test_images_output/challenge_image_segment.jpg" width="400" title="Challenge image with line segments" />
 
 * In comparison with reference video (P1_example.mp4, right one), the full lines shown in my output video (left one) is not stable enough. It may be caused by the process to select the reference point to draw the full line with average slope. Currently, I only choose it roughly by selecting the middle point of the first segment from the filtered data, which is not good enough to calculate the full line and represent it well in some cases.
+
+	*Path to the videos:*
+
+	/test_videos_output/solidWhiteRight_segment.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/solidWhiteRight_segment.mp4)
+
+	/examples/P1_example.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/examples/P1_example.mp4)
 
   <figure class="video_container">
     <video controls="true" allowfullscreen="true" width="320" title="With Full Lines">
@@ -151,6 +173,8 @@ Here are possible modifications that can improve the pipeline:
 * Optimize the reference point and the way to draw the full lines to fit more precisely with actual lines. Selecting middle point of the segments whose slope is nearest to average slope may be a good approach.
 
 Here is the result after applying some of the solutions mentioned above with very rough implementation. More implementation & fine-tune are needed but we can observe some small improvements on challenge video.
+
+  (*Path to the video:* /test_videos_output/challenge_resize_improve.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize_improve.mp4))
 
   <figure class="video_container">
     <video controls="true" allowfullscreen="true" width="480" title="Some improvements for challenge video">
