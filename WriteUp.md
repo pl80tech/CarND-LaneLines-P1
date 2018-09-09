@@ -110,3 +110,8 @@ Here are some potential shortcomings that need to be improved. As also shown in 
 
 ### 3. Suggest possible improvements to your pipeline
 
+Here are possible modifications that can improve the pipeline:
+
+* Improve the way to select the parameters (like region of interest) so that it can be used in more generalized cases.
+* Use somes thresholds to filter & remove the segment whose absolute value of its slope is very low or very high. It can help to remove some segments caused by unexpected objects or the noises. Selecting a limited range of slope for filtering based on its distribution may be a good approach.
+* Optimize the reference point and the way to draw the full lines to fit more precisely with actual lines. Selecting middle point of the segments whose slope is nearest to average slope may be a good approach.
