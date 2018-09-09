@@ -74,6 +74,30 @@ https://github.com/udacity/CarND-LaneLines-P1
   <img src="test_images_output/addLine_whiteCarLaneSwitch.jpg" width="320" title="Image with line segments"/>
   <img src="test_images_output/addFullLine_whiteCarLaneSwitch.jpg" width="320" title="Image with full lines"/>
 
+#### 1.4 Here are the videos (with line segments & full lines) created by the whole process:
+
+* From /test_videos/solidWhiteRight.mp4
+
+  <figure class="video_container">
+    <video controls="true" allowfullscreen="true" width="320" title="With Line Segments">
+      <source src="test_videos_output/solidWhiteRight_segment.mp4" type="video/mp4">
+    </video>
+    <video controls="true" allowfullscreen="true" width="320" title="With Full Lines">
+      <source src="test_videos_output/solidWhiteRight.mp4" type="video/mp4">
+    </video>
+  </figure>
+
+* From /test_videos/solidYellowLeft.mp4
+
+  <figure class="video_container">
+    <video controls="true" allowfullscreen="true" width="320"title="With Line Segments">
+      <source src="test_videos_output/solidYellowLeft_segment.mp4" type="video/mp4">
+    </video>
+    <video controls="true" allowfullscreen="true" width="320" title="With Full Lines">
+      <source src="test_videos_output/solidYellowLeft.mp4" type="video/mp4">
+    </video>
+  </figure>
+
 ### 2. Identify potential shortcomings with your current pipeline
 
 ### 3. Suggest possible improvements to your pipeline
