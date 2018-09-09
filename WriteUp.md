@@ -42,6 +42,38 @@ https://github.com/udacity/CarND-LaneLines-P1
 * Calculate the positions for the full lines (within masked polygon) based on reference point and average slope of all the left/right segments using the equation y = wx + b (w: weight or slope, b: bias)
 * Draw the full lines from the calculated positions
 
+#### 1.3 Here are the images (with line segments and full lines) created by the pipelines:
+
+* solidWhiteRight.jpg
+
+  <img src="test_images_output/addLine_solidWhiteRight.jpg" width="320" title="Image with line segments"/>
+  <img src="test_images_output/addFullLine_solidWhiteRight.jpg" width="320" title="Image with full lines"/>
+
+* solidWhiteCurve.jpg
+
+  <img src="test_images_output/addLine_solidWhiteCurve.jpg" width="320" title="Image with line segments"/>
+  <img src="test_images_output/addFullLine_solidWhiteCurve.jpg" width="320" title="Image with full lines"/>
+
+* solidYellowLeft.jpg
+
+  <img src="test_images_output/addLine_solidYellowLeft.jpg" width="320" title="Image with line segments"/>
+  <img src="test_images_output/addFullLine_solidYellowLeft.jpg" width="320" title="Image with full lines"/>
+
+* solidYellowCurve2.jpg
+
+  <img src="test_images_output/addLine_solidYellowCurve2.jpg" width="320" title="Image with line segments"/>
+  <img src="test_images_output/addFullLine_solidYellowCurve2.jpg" width="320"  title="Image with full lines"/>
+
+* solidYellowCurve.jpg
+
+  <img src="test_images_output/addLine_solidYellowCurve.jpg" width="320" title="Image with line segments"/>
+  <img src="test_images_output/addFullLine_solidYellowCurve.jpg" width="320" title="Image with full lines"/>
+
+* whiteCarLaneSwitch.jpg
+
+  <img src="test_images_output/addLine_whiteCarLaneSwitch.jpg" width="320" title="Image with line segments"/>
+  <img src="test_images_output/addFullLine_whiteCarLaneSwitch.jpg" width="320" title="Image with full lines"/>
+
 ### 2. Identify potential shortcomings with your current pipeline
 
 ### 3. Suggest possible improvements to your pipeline
