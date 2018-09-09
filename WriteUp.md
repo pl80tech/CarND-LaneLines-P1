@@ -12,7 +12,7 @@ Here is my working repository for this project:
 
 https://github.com/pl80tech/CarND-LaneLines-P1
 
-It is cloned from below original repository:
+It is imported from below original repository:
 
 https://github.com/udacity/CarND-LaneLines-P1
 
@@ -149,3 +149,11 @@ Here are possible modifications that can improve the pipeline:
 * Improve the way to select the parameters (like region of interest) so that it can be used in more generalized cases.
 * Use somes thresholds to filter & remove the segment whose absolute value of its slope is very low or very high. It can help to remove some segments caused by unexpected objects or the noises. Selecting a limited range of slope for filtering based on its distribution may be a good approach.
 * Optimize the reference point and the way to draw the full lines to fit more precisely with actual lines. Selecting middle point of the segments whose slope is nearest to average slope may be a good approach.
+
+Here is the result after applying some of the solutions mentioned above with very rough implementation. More implementation & fine-tune are needed but we can observe some small improvements on challenge video.
+
+  <figure class="video_container">
+    <video controls="true" allowfullscreen="true" width="480" title="Some improvements for challenge video">
+      <source src="test_videos_output/challenge_resize_improve.mp4" type="video/mp4">
+    </video>
+  </figure>
