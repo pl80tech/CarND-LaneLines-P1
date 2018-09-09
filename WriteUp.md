@@ -32,7 +32,15 @@ https://github.com/udacity/CarND-LaneLines-P1
 * Apply Hough Transform to detect and draw the lane line segments
 * Combine the detected segment lines into original image
 
- **Note**: the parameters which are hard-coded in project file are tuned with test images
+	**Note**: the parameters which are hard-coded in project file are tuned with test images
+
+#### 1.2 In order to fully extend and draw a single line on the left and right lane, I created draw_full_lines() funtion from draw_lines() function as below:
+
+* Calculate the slope of each line segments
+* Devide the segments to right & left ones based on the slope (right segment with positive slope & left segment with negative slope)
+* Select the reference points for right & left line. Currently chosing the middle points of the first segments. Will optimize this selection for drawing better line.
+* Calculate the positions for the full lines (within masked polygon) based on reference point and average slope of all the left/right segments using the equation y = wx + b (w: weight or slope, b: bias)
+* Draw the full lines from the calculated positions
 
 ### 2. Identify potential shortcomings with your current pipeline
 
