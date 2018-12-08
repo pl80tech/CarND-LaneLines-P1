@@ -1,6 +1,20 @@
 # **Finding Lane Lines on the Road** 
 
-## The goals / steps of this project are the following:
+---
+
+### Contents
+
+* [The goals / steps of this project](#The-goals-steps-of-this-project)
+* [Project code](#Project-code)
+* [Note](#Note)
+* [Reflection](#Reflection)
+  * [1.Describe your pipeline](#1-Describe-your-pipeline)
+  * [2.Identify potential shortcomings with your current pipeline](#2-Identify-potential-shortcomings-with-your-current-pipeline)
+  * [3.Suggest possible improvements to your pipeline](#3-Suggest-possible-improvements-to-your-pipeline)
+
+---
+
+### The goals / steps of this project
 
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
@@ -27,7 +41,8 @@ To view these embedded videos, please open this file locally in browser (with ma
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Describe your pipeline
+As part of the description, explain how you modified the draw_lines() function.
 
 #### 1.1 My pipeline consisted of following steps:
 
