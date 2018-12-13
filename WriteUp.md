@@ -164,13 +164,9 @@ Here are some potential shortcomings that need to be improved. As also shown in 
 
 	Below video is generated after applying current process with challenge video after resizing it to 540 x 960. The full lines are drawing within expected region but the slope is incorrect and doesn't fit actual lines because it is affected much by the noises.
 
-	(*Path to the video:* /test_videos_output/challenge_resize.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize.mp4))
-
-  <figure class="video_container">
-    <video controls="true" allowfullscreen="true" width="480">
-      <source src="test_videos_output/challenge_resize.mp4" type="video/mp4">
-    </video>
-  </figure>
+| Link on Github                            | Link on Youtube                          |
+|:-----------------------------------------:|:----------------------------------------:|
+| *[/test_videos_output/challenge_resize.mp4](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize.mp4)* <figure class="video_container"> <video controls="true" allowfullscreen="true" width="380"> <source src="test_videos_output/challenge_resize.mp4" type="video/mp4"> </video> </figure> | *Click on thumbnail image to view* [![challenge_resize_Youtube](https://i.ytimg.com/vi/_JbjcV4_fvA/hqdefault.jpg)](http://www.youtube.com/watch?v=_JbjcV4_fvA) |
 
   It can be observed by applying the pipeline to a specific frame from challenge video as below.
 
