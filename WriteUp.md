@@ -200,10 +200,6 @@ Here are possible modifications that can improve the pipeline:
 
 Here is the result after applying some of the solutions mentioned above with very rough implementation. More implementation & fine-tune are needed but we can observe some small improvements on challenge video.
 
-  (*Path to the video:* /test_videos_output/challenge_resize_improve.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize_improve.mp4))
-
-  <figure class="video_container">
-    <video controls="true" allowfullscreen="true" width="480" title="Some improvements for challenge video">
-      <source src="test_videos_output/challenge_resize_improve.mp4" type="video/mp4">
-    </video>
-  </figure>
+| Link on Github                            | Link on Youtube                          |
+|:-----------------------------------------:|:----------------------------------------:|
+| *[/test_videos_output/challenge_resize_improve.mp4](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize_improve.mp4)* <figure class="video_container"> <video controls="true" allowfullscreen="true" width="380"> <source src="test_videos_output/challenge_resize_improve.mp4" type="video/mp4"> </video> </figure> | *Click on thumbnail image to view* [![challenge_resize_improve_Youtube](https://i.ytimg.com/vi/r19oo3p_dGo/hqdefault.jpg)](http://www.youtube.com/watch?v=r19oo3p_dGo) |
