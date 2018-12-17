@@ -166,8 +166,9 @@ Here are some potential shortcomings that need to be improved. As also shown in 
 
   It can be observed by applying the pipeline to a specific frame from challenge video as below.
 
-  <img src="test_images_output/challenge_image.jpg" width="400" title="Challenge image" />
-  <img src="test_images_output/challenge_image_segment.jpg" width="400" title="Challenge image with line segments" />
+| Image from challenge video (original)     | Image from challenge video (with segment lines) |
+|:-----------------------------------------:|:-----------------------------------------------:|
+| <img src="test_images_output/challenge_image.jpg" width="400" title="Challenge image" /> | <img src="test_images_output/challenge_image_segment.jpg" width="400" title="Challenge image with line segments" /> |
 
 * In comparison with reference video (P1_example.mp4, right one), the full lines shown in my output video (left one) is not stable enough. It may be caused by the process to select the reference point to draw the full line with average slope. Currently, I only choose it roughly by selecting the middle point of the first segment from the filtered data, which is not good enough to calculate the full line and represent it well in some cases.
 
