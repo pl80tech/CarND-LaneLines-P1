@@ -150,13 +150,9 @@ Here are some potential shortcomings that need to be improved. As also shown in 
 
 	Below video is generated after applying current process with challenge video (challenge.mp4, frame size 720 x 1280). The full lines showing in this video are drawn in the region of interest specific for frame size 540 x 960 and not correct when applying to 720 x 1280.
 
-	(*Path to the video:* /test_videos_output/challenge.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge.mp4))
-
-  <figure class="video_container">
-    <video controls="true" allowfullscreen="true" width="480" title="Output video after applying current process to challenge video">
-      <source src="test_videos_output/challenge.mp4" type="video/mp4">
-    </video>
-  </figure>
+| Link on Github                            | Link on Youtube                          |
+|:-----------------------------------------:|:----------------------------------------:|
+| *[/test_videos_output/challenge.mp4](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge.mp4)* <figure class="video_container"> <video controls="true" allowfullscreen="true" width="380"> <source src="test_videos_output/challenge.mp4" type="video/mp4"> </video> </figure> | *Click on thumbnail image to view* [![challenge_Youtube](https://i.ytimg.com/vi/FqoUvQuTzrk/hqdefault.jpg)](http://www.youtube.com/watch?v=FqoUvQuTzrk) |
 
 * Even with the same frame size, current pipeline/process is weak when using with images/videos having some unexpected objects (or noises) like tree shadow, car's front side, etc
 
