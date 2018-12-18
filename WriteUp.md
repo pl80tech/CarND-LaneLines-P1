@@ -172,20 +172,17 @@ Here are some potential shortcomings that need to be improved. As also shown in 
 
 * In comparison with reference video (P1_example.mp4, right one), the full lines shown in my output video (left one) is not stable enough. It may be caused by the process to select the reference point to draw the full line with average slope. Currently, I only choose it roughly by selecting the middle point of the first segment from the filtered data, which is not good enough to calculate the full line and represent it well in some cases.
 
-	*Path to the videos:*
+	* *Path to the videos (on Github):*
 
-	/test_videos_output/solidWhiteRight_segment.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/solidWhiteRight_segment.mp4)
+	/test_videos_output/solidWhiteRight.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/solidWhiteRight.mp4)
 
 	/examples/P1_example.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/examples/P1_example.mp4)
 
-  <figure class="video_container">
-    <video controls="true" allowfullscreen="true" width="320" title="With Full Lines">
-      <source src="test_videos_output/solidWhiteRight.mp4" type="video/mp4">
-    </video>
-    <video controls="true" allowfullscreen="true" width="320" title="Reference video">
-      <source src="examples/P1_example.mp4" type="video/mp4">
-    </video>
-  </figure>
+  * *Link to the uploaded videos on Youtube. Click on the thumbnail image to view the video.*
+
+| /test_videos_output/solidWhiteRight.mp4           | /examples/P1_example.mp4                 |
+|:-------------------------------------------------:|:----------------------------------------:|
+| [![solidWhiteRight](https://i.ytimg.com/vi/QPtgOCh-ukc/hqdefault.jpg)](http://www.youtube.com/watch?v=QPtgOCh-ukc) | [![P1_example](https://i.ytimg.com/vi/AzDwUnmlwwU/hqdefault.jpg)](http://www.youtube.com/watch?v=AzDwUnmlwwU) |
 
 ### 3. Suggest possible improvements to your pipeline
 
