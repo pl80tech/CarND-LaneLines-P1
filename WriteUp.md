@@ -105,14 +105,6 @@ As part of the description, explain how you modified the draw_lines() function.
 |:--------------------------------------------------:|:--------------------------------------------:|
 | [![solidYellowLeft_segment](https://i.ytimg.com/vi/V_6rB8lJhZA/hqdefault.jpg)](http://www.youtube.com/watch?v=V_6rB8lJhZA) | [![solidYellowLeft](https://i.ytimg.com/vi/LvdRSS2inxQ/hqdefault.jpg)](http://www.youtube.com/watch?v=LvdRSS2inxQ) |
 
-* Uploaded videos on Youtube
-
-| /test_videos_output/solidYellowLeft.mp4   | /test_videos_output/solidWhiteRight.mp4  |
-|:-----------------------------------------:|:----------------------------------------:|
-| [![solidYellowLeft](https://i.ytimg.com/vi/LvdRSS2inxQ/hqdefault.jpg)](http://www.youtube.com/watch?v=LvdRSS2inxQ) | [![solidWhiteRight](https://i.ytimg.com/vi/QPtgOCh-ukc/hqdefault.jpg)](http://www.youtube.com/watch?v=QPtgOCh-ukc) |
-
-  *Click on the thumbnail image to jump to the video*
-
 ### 2. Identify potential shortcomings with your current pipeline
 
 Here are some potential shortcomings that need to be improved. As also shown in challenge section (optional) of project file ([link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/P1.ipynb)), it can easily be observed by testing current pipeline/process with challenge video (challenge.mp4)
