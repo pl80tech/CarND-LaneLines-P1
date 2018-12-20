@@ -79,37 +79,31 @@ As part of the description, explain how you modified the draw_lines() function.
 
 * From /test_videos/solidWhiteRight.mp4
 
-	*Path to the videos:*
+	* *Path to the videos (on Github):*
 
 	/test_videos_output/solidWhiteRight_segment.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/solidWhiteRight_segment.mp4)
 
 	/test_videos_output/solidWhiteRight.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/solidWhiteRight.mp4)
 
-  <figure class="video_container">
-    <video controls="true" allowfullscreen="true" width="320" title="With Line Segments">
-      <source src="test_videos_output/solidWhiteRight_segment.mp4" type="video/mp4">
-    </video>
-    <video controls="true" allowfullscreen="true" width="320" title="With Full Lines">
-      <source src="test_videos_output/solidWhiteRight.mp4" type="video/mp4">
-    </video>
-  </figure>
+  * *Link to the uploaded videos on Youtube. Click on the thumbnail image to view the video.*
+
+| /test_videos_output/solidWhiteRight_segment.mp4    | /test_videos_output/solidWhiteRight.mp4      |
+|:--------------------------------------------------:|:--------------------------------------------:|
+| [![solidWhiteRight_segment](https://i.ytimg.com/vi/xFnWUE2QpV8/hqdefault.jpg)](http://www.youtube.com/watch?v=xFnWUE2QpV8) | [![solidWhiteRight](https://i.ytimg.com/vi/QPtgOCh-ukc/hqdefault.jpg)](http://www.youtube.com/watch?v=QPtgOCh-ukc) |
 
 * From /test_videos/solidYellowLeft.mp4
 
-	*Path to the videos:*
+	* *Path to the videos (on Github):*
 
 	/test_videos_output/solidYellowLeft_segment.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/solidYellowLeft_segment.mp4)
 
 	/test_videos_output/solidYellowLeft.mp4 : [link](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/solidYellowLeft.mp4)
 
-  <figure class="video_container">
-    <video controls="true" allowfullscreen="true" width="320"title="With Line Segments">
-      <source src="test_videos_output/solidYellowLeft_segment.mp4" type="video/mp4">
-    </video>
-    <video controls="true" allowfullscreen="true" width="320" title="With Full Lines">
-      <source src="test_videos_output/solidYellowLeft.mp4" type="video/mp4">
-    </video>
-  </figure>
+  * *Link to the uploaded videos on Youtube. Click on the thumbnail image to view the video.*
+
+| /test_videos_output/solidYellowLeft_segment.mp4    | /test_videos_output/solidYellowLeft.mp4      |
+|:--------------------------------------------------:|:--------------------------------------------:|
+| [![solidYellowLeft_segment](https://i.ytimg.com/vi/V_6rB8lJhZA/hqdefault.jpg)](http://www.youtube.com/watch?v=V_6rB8lJhZA) | [![solidYellowLeft](https://i.ytimg.com/vi/LvdRSS2inxQ/hqdefault.jpg)](http://www.youtube.com/watch?v=LvdRSS2inxQ) |
 
 * Uploaded videos on Youtube
 
