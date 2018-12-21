@@ -12,6 +12,21 @@
   * [2.Identify potential shortcomings with your current pipeline](#2-Identify-potential-shortcomings-with-your-current-pipeline)
   * [3.Suggest possible improvements to your pipeline](#3-Suggest-possible-improvements-to-your-pipeline)
 
+[//]: # (Image References)
+
+[segment1]: ./test_images_output/addLine_solidWhiteRight.jpg "Image with line segments"
+[segment2]: ./test_images_output/addLine_solidWhiteCurve.jpg "Image with line segments"
+[segment3]: ./test_images_output/addLine_solidYellowLeft.jpg "Image with line segments"
+[segment4]: ./test_images_output/addLine_solidYellowCurve.jpg "Image with line segments"
+[segment5]: ./test_images_output/addLine_solidYellowCurve2.jpg "Image with line segments"
+[segment6]: ./test_images_output/addLine_whiteCarLaneSwitch.jpg "Image with line segments"
+[fullLine1]: ./test_images_output/addFullLine_solidWhiteRight.jpg "Image with full lines"
+[fullLine2]: ./test_images_output/addFullLine_solidWhiteCurve.jpg "Image with full lines"
+[fullLine3]: ./test_images_output/addFullLine_solidYellowLeft.jpg "Image with full lines"
+[fullLine4]: ./test_images_output/addFullLine_solidYellowCurve.jpg "Image with full lines"
+[fullLine5]: ./test_images_output/addFullLine_solidYellowCurve2.jpg "Image with full lines"
+[fullLine6]: ./test_images_output/addFullLine_whiteCarLaneSwitch.jpg "Image with full lines"
+
 ---
 
 ### The goals / steps of this project
