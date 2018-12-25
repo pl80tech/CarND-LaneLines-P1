@@ -82,7 +82,7 @@ As part of the description, explain how you modified the draw_lines() function.
 #### 1.3 Here are the images (with line segments and full lines) created by the pipelines:
 
 | [Test images (jpg)](https://github.com/pl80tech/CarND-LaneLines-P1/tree/master/test_images) | With line segments | With full lines |
-|:-------------------:|:---------------------:|: ---------------------:|
+|:-------------------:|:---------------------:|:----------------------:|
 | solidWhiteRight     | ![alt text][segment1] | ![alt text][fullLine1] |
 | solidWhiteCurve     | ![alt text][segment2] | ![alt text][fullLine2] |
 | solidYellowLeft     | ![alt text][segment3] | ![alt text][fullLine3] |
