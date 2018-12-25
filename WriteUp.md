@@ -81,14 +81,14 @@ As part of the description, explain how you modified the draw_lines() function.
 
 #### 1.3 Here are the images (with line segments and full lines) created by the pipelines:
 
-| [Test images (jpg)](https://github.com/pl80tech/CarND-LaneLines-P1/tree/master/test_images) | With line segments   | With full lines        |
-|:-------------------------------------------------------------------------------------------:|:--------------------:|:----------------------:|
-| solidWhiteRight    | <img src="test_images_output/addLine_solidWhiteRight.jpg" width="340" title="Image with line segments"/> | <img src="test_images_output/addFullLine_solidWhiteRight.jpg" width="340" title="Image with full lines"/> |
-| solidWhiteCurve    | <img src="test_images_output/addLine_solidWhiteCurve.jpg" width="340" title="Image with line segments"/> | <img src="test_images_output/addFullLine_solidWhiteCurve.jpg" width="340" title="Image with full lines"/> |
-| solidYellowLeft    | <img src="test_images_output/addLine_solidYellowLeft.jpg" width="340" title="Image with line segments"/> | <img src="test_images_output/addFullLine_solidYellowLeft.jpg" width="340" title="Image with full lines"/> |
-| solidYellowCurve2  | <img src="test_images_output/addLine_solidYellowCurve2.jpg" width="340" title="Image with line segments"/> | <img src="test_images_output/addFullLine_solidYellowCurve2.jpg" width="340" title="Image with full lines"/> |
-| solidYellowCurve   | <img src="test_images_output/addLine_solidYellowCurve.jpg" width="340" title="Image with line segments"/> | <img src="test_images_output/addFullLine_solidYellowCurve.jpg" width="340" title="Image with full lines"/> |
-| whiteCarLaneSwitch | <img src="test_images_output/addLine_whiteCarLaneSwitch.jpg" width="340" title="Image with line segments"/> | <img src="test_images_output/addFullLine_whiteCarLaneSwitch.jpg" width="340" title="Image with full lines"/> |
+| [Test images (jpg)](https://github.com/pl80tech/CarND-LaneLines-P1/tree/master/test_images) | With line segments | With full lines |
+|:-------------------:|:---------------------:|: ---------------------:|
+| solidWhiteRight     | ![alt text][segment1] | ![alt text][fullLine1] |
+| solidWhiteCurve     | ![alt text][segment2] | ![alt text][fullLine2] |
+| solidYellowLeft     | ![alt text][segment3] | ![alt text][fullLine3] |
+| solidYellowCurve    | ![alt text][segment4] | ![alt text][fullLine4] |
+| solidYellowCurve2   | ![alt text][segment5] | ![alt text][fullLine5] |
+| whiteCarLaneSwitch  | ![alt text][segment6] | ![alt text][fullLine6] |
 
 #### 1.4 Here are the videos (with line segments & full lines) created by the whole process:
 
