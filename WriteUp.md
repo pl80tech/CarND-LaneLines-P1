@@ -29,6 +29,7 @@
 
 [animation1]: ./test_videos_output/challenge.gif "Output of challenge video (Animation)"
 [animation2]: ./test_videos_output/challenge_resize.gif "Output of challenge video (Animation, resized)"
+[animation3]: ./test_videos_output/challenge_resize_improve.gif "Output of challenge video (Animation, resized, improved)"
 
 ---
 
@@ -179,4 +180,4 @@ Here is the result after applying some of the solutions mentioned above with ver
 
 | Link on Github                            | Link on Youtube                          |
 |:-----------------------------------------:|:----------------------------------------:|
-| *[/test_videos_output/challenge_resize_improve.mp4](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize_improve.mp4)* <figure class="video_container"> <video controls="true" allowfullscreen="true" width="380"> <source src="test_videos_output/challenge_resize_improve.mp4" type="video/mp4"> </video> </figure> | *Click on thumbnail image to view* [![challenge_resize_improve_Youtube](https://i.ytimg.com/vi/r19oo3p_dGo/hqdefault.jpg)](http://www.youtube.com/watch?v=r19oo3p_dGo) |
+| [![alt text][animation3]](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize_improve.mp4) | *Click on thumbnail image to view* [![challenge_resize_improve_Youtube](https://i.ytimg.com/vi/r19oo3p_dGo/hqdefault.jpg)](http://www.youtube.com/watch?v=r19oo3p_dGo) |
