@@ -28,6 +28,7 @@
 [fullLine6]: ./test_images_output/addFullLine_whiteCarLaneSwitch.jpg "Image with full lines"
 
 [animation1]: ./test_videos_output/challenge.gif "Output of challenge video (Animation)"
+[animation2]: ./test_videos_output/challenge_resize.gif "Output of challenge video (Animation, resized)"
 
 ---
 
@@ -144,7 +145,7 @@ Here are some potential shortcomings that need to be improved. As also shown in 
 
 | Link on Github                            | Link on Youtube                          |
 |:-----------------------------------------:|:----------------------------------------:|
-| *[/test_videos_output/challenge_resize.mp4](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize.mp4)* <figure class="video_container"> <video controls="true" allowfullscreen="true" width="380"> <source src="test_videos_output/challenge_resize.mp4" type="video/mp4"> </video> </figure> | *Click on thumbnail image to view* [![challenge_resize_Youtube](https://i.ytimg.com/vi/_JbjcV4_fvA/hqdefault.jpg)](http://www.youtube.com/watch?v=_JbjcV4_fvA) |
+| [![alt text][animation2]](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize.mp4) | *Click on thumbnail image to view* [![challenge_resize_Youtube](https://i.ytimg.com/vi/_JbjcV4_fvA/hqdefault.jpg)](http://www.youtube.com/watch?v=_JbjcV4_fvA) |
 
   It can be observed by applying the pipeline to a specific frame from challenge video as below.
 
