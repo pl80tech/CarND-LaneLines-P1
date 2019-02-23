@@ -34,6 +34,7 @@
 
 [thumbnail1]: https://i.ytimg.com/vi/FqoUvQuTzrk/hqdefault.jpg "Thumbnail on Youtube - challenge"
 [thumbnail2]: https://i.ytimg.com/vi/_JbjcV4_fvA/hqdefault.jpg "Thumbnail on Youtube - challenge resize"
+[thumbnail3]: https://i.ytimg.com/vi/r19oo3p_dGo/hqdefault.jpg "Thumbnail on Youtube - challenge resize improve"
 
 ---
 
@@ -184,7 +185,7 @@ Here is the result after applying some of the solutions mentioned above with ver
 
 | Link on Github                            | Link on Youtube                          |
 |:-----------------------------------------:|:----------------------------------------:|
-| [![alt text][animation3]](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize_improve.mp4) | *Click on thumbnail image to view* [![challenge_resize_improve_Youtube](https://i.ytimg.com/vi/r19oo3p_dGo/hqdefault.jpg)](http://www.youtube.com/watch?v=r19oo3p_dGo) |
+| [![alt text][animation3]](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize_improve.mp4) | [![alt text][thumbnail3]](http://www.youtube.com/watch?v=r19oo3p_dGo) |
 
 ---
 
