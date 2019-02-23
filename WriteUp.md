@@ -32,6 +32,8 @@
 [animation2]: ./test_videos_output/challenge_resize.gif "Output of challenge video (Animation, resized)"
 [animation3]: ./test_videos_output/challenge_resize_improve.gif "Output of challenge video (Animation, resized, improved)"
 
+[thumbnail1]: https://i.ytimg.com/vi/FqoUvQuTzrk/hqdefault.jpg "Thumbnail on Youtube - challenge"
+
 ---
 
 ### The goals / steps of this project
@@ -137,7 +139,7 @@ Here are some potential shortcomings that need to be improved. As also shown in 
 
 | Link on Github                            | Link on Youtube                          |
 |:-----------------------------------------:|:----------------------------------------:|
-| [![alt text][animation1]](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge.mp4) | *Click on thumbnail image to view* [![challenge_Youtube](https://i.ytimg.com/vi/FqoUvQuTzrk/hqdefault.jpg)](http://www.youtube.com/watch?v=FqoUvQuTzrk) |
+| [![alt text][animation1]](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge.mp4) | *Click on thumbnail image to view* [![alt text][thumbnail1]](http://www.youtube.com/watch?v=FqoUvQuTzrk) |
 
 * Even with the same frame size, current pipeline/process is weak when using with images/videos having some unexpected objects (or noises) like tree shadow, car's front side, etc
 
