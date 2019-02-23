@@ -33,6 +33,7 @@
 [animation3]: ./test_videos_output/challenge_resize_improve.gif "Output of challenge video (Animation, resized, improved)"
 
 [thumbnail1]: https://i.ytimg.com/vi/FqoUvQuTzrk/hqdefault.jpg "Thumbnail on Youtube - challenge"
+[thumbnail2]: https://i.ytimg.com/vi/_JbjcV4_fvA/hqdefault.jpg "Thumbnail on Youtube - challenge resize"
 
 ---
 
@@ -149,7 +150,7 @@ Here are some potential shortcomings that need to be improved. As also shown in 
 
 | Link on Github                            | Link on Youtube                          |
 |:-----------------------------------------:|:----------------------------------------:|
-| [![alt text][animation2]](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize.mp4) | *Click on thumbnail image to view* [![challenge_resize_Youtube](https://i.ytimg.com/vi/_JbjcV4_fvA/hqdefault.jpg)](http://www.youtube.com/watch?v=_JbjcV4_fvA) |
+| [![alt text][animation2]](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize.mp4) | *Click on thumbnail image to view* [![alt text][thumbnail2]](http://www.youtube.com/watch?v=_JbjcV4_fvA) |
 
   It can be observed by applying the pipeline to a specific frame from challenge video as below.
 
