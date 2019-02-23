@@ -11,6 +11,7 @@
   * [1.Describe your pipeline](#1-Describe-your-pipeline)
   * [2.Identify potential shortcomings with your current pipeline](#2-Identify-potential-shortcomings-with-your-current-pipeline)
   * [3.Suggest possible improvements to your pipeline](#3-Suggest-possible-improvements-to-your-pipeline)
+* [Embedded videos](#Embedded-videos)
 
 [//]: # (Image References)
 
@@ -181,3 +182,13 @@ Here is the result after applying some of the solutions mentioned above with ver
 | Link on Github                            | Link on Youtube                          |
 |:-----------------------------------------:|:----------------------------------------:|
 | [![alt text][animation3]](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize_improve.mp4) | *Click on thumbnail image to view* [![challenge_resize_improve_Youtube](https://i.ytimg.com/vi/r19oo3p_dGo/hqdefault.jpg)](http://www.youtube.com/watch?v=r19oo3p_dGo) |
+
+---
+
+### Embedded videos
+
+For quick reference, here are the embedded videos of the output videos uploaded on Github. Click on thumbnail image to view the full video. It can be shown when opening this markdown file locally by browsers but may not be shown when viewing directly on Github.
+
+* [/test_videos_output/challenge.mp4](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge.mp4)
+
+<figure class="video_container"> <video controls="true" allowfullscreen="true" width="720"> <source src="test_videos_output/challenge.mp4" type="video/mp4"> </video> </figure>
