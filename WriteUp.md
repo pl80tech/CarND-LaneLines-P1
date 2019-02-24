@@ -204,3 +204,9 @@ For quick reference, here are the embedded videos of the output videos uploaded 
 * [/test_videos_output/challenge_resize_improve.mp4](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize_improve.mp4)
 
 <figure class="video_container"> <video controls="true" allowfullscreen="true" width="720"> <source src="test_videos_output/challenge_resize_improve.mp4" type="video/mp4"> </video> </figure>
+
+| Link on Github                            | Embedded videos (view directly here)     |
+|:-----------------------------------------:|:----------------------------------------:|
+| [challenge.mp4](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge.mp4) | <figure class="video_container"> <video controls="true" allowfullscreen="true" width="480"> <source src="test_videos_output/challenge.mp4" type="video/mp4"> </video> </figure> |
+| [challenge_resize.mp4](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize.mp4) | <figure class="video_container"> <video controls="true" allowfullscreen="true" width="480"> <source src="test_videos_output/challenge_resize.mp4" type="video/mp4"> </video> </figure> |
+| [challenge_resize_improve.mp4](https://github.com/pl80tech/CarND-LaneLines-P1/blob/master/test_videos_output/challenge_resize_improve.mp4) | <figure class="video_container"> <video controls="true" allowfullscreen="true" width="480"> <source src="test_videos_output/challenge_resize_improve.mp4" type="video/mp4"> </video> </figure> |
