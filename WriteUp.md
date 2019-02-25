@@ -33,6 +33,8 @@
 [animation3]: ./test_videos_output/challenge_resize_improve.gif "Output of challenge video (Animation, resized, improved)"
 [animation4]: ./test_videos_output/solidWhiteRight.gif "Solid White Right"
 [animation4s]: ./test_videos_output/solidWhiteRight_segment.gif "Solid White Right (segment)"
+[animation5]: ./test_videos_output/solidYellowLeft.gif "Solid Yellow Left"
+[animation5s]: ./test_videos_output/solidYellowLeft_segment.gif "Solid Yellow Left (segment)"
 
 [thumbnail1]: https://i.ytimg.com/vi/FqoUvQuTzrk/hqdefault.jpg "Thumbnail on Youtube - challenge"
 [thumbnail2]: https://i.ytimg.com/vi/_JbjcV4_fvA/hqdefault.jpg "Thumbnail on Youtube - challenge resize"
@@ -129,7 +131,7 @@ As part of the description, explain how you modified the draw_lines() function.
 
 | /test_videos_output/solidYellowLeft_segment.mp4    | /test_videos_output/solidYellowLeft.mp4      |
 |:--------------------------------------------------:|:--------------------------------------------:|
-| [![solidYellowLeft_segment](https://i.ytimg.com/vi/V_6rB8lJhZA/hqdefault.jpg)](http://www.youtube.com/watch?v=V_6rB8lJhZA) | [![solidYellowLeft](https://i.ytimg.com/vi/LvdRSS2inxQ/hqdefault.jpg)](http://www.youtube.com/watch?v=LvdRSS2inxQ) |
+| [![alt text][animation5s]](http://www.youtube.com/watch?v=V_6rB8lJhZA) | [![alt text][animation5]](http://www.youtube.com/watch?v=LvdRSS2inxQ) |
 
 ### 2. Identify potential shortcomings with your current pipeline
 
