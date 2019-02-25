@@ -8,4 +8,7 @@
 # arg4 --> number of frame per second
 # arg5 --> frame size of output animated gif (640x360, etc)
 # arg6 --> name of output animated gif (.gif)
+#
+# Example:
+# $./video2gif.sh 0:00 challenge.mp4 5 15 640x360 challenge.gif
 ffmpeg -ss $1 -i $2 -t $3 -an -r $4 -s $5 -f gif $6
