@@ -35,6 +35,7 @@
 [animation4s]: ./test_videos_output/solidWhiteRight_segment.gif "Solid White Right (segment)"
 [animation5]: ./test_videos_output/solidYellowLeft.gif "Solid Yellow Left"
 [animation5s]: ./test_videos_output/solidYellowLeft_segment.gif "Solid Yellow Left (segment)"
+[animation_example]: ./examples/P1_example.gif "P1 example"
 
 [thumbnail1]: https://i.ytimg.com/vi/FqoUvQuTzrk/hqdefault.jpg "Thumbnail on Youtube - challenge"
 [thumbnail2]: https://i.ytimg.com/vi/_JbjcV4_fvA/hqdefault.jpg "Thumbnail on Youtube - challenge resize"
@@ -175,7 +176,7 @@ Here are some potential shortcomings that need to be improved. As also shown in 
 
 | /test_videos_output/solidWhiteRight.mp4           | /examples/P1_example.mp4                 |
 |:-------------------------------------------------:|:----------------------------------------:|
-| [![solidWhiteRight](https://i.ytimg.com/vi/QPtgOCh-ukc/hqdefault.jpg)](http://www.youtube.com/watch?v=QPtgOCh-ukc) | [![P1_example](https://i.ytimg.com/vi/AzDwUnmlwwU/hqdefault.jpg)](http://www.youtube.com/watch?v=AzDwUnmlwwU) |
+| [![alt text][animation4]](http://www.youtube.com/watch?v=QPtgOCh-ukc) | [![alt text][animation_example]](http://www.youtube.com/watch?v=AzDwUnmlwwU) |
 
 ### 3. Suggest possible improvements to your pipeline
 
