@@ -1,5 +1,8 @@
 # Script to change video to animated gif
 #
+# Required software:
+# $sudo apt-get install ffmpeg
+#
 # How to use:
 # $./video2gif.sh arg1 arg2 arg3 arg4 arg5 arg6
 # arg1 --> start time
@@ -11,4 +14,8 @@
 #
 # Example:
 # $./video2gif.sh 0:00 challenge.mp4 5 15 640x360 challenge.gif
+echo "Installing ffmpeg"
+sudo apt-get install ffmpeg
+echo "-----------------"
+echo "Starting to change video to animated gif"
 ffmpeg -ss $1 -i $2 -t $3 -an -r $4 -s $5 -f gif $6
