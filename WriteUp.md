@@ -31,6 +31,8 @@
 [animation1]: ./test_videos_output/challenge.gif "Output of challenge video (Animation)"
 [animation2]: ./test_videos_output/challenge_resize.gif "Output of challenge video (Animation, resized)"
 [animation3]: ./test_videos_output/challenge_resize_improve.gif "Output of challenge video (Animation, resized, improved)"
+[animation4]: ./test_videos_output/solidWhiteRight.gif "Solid White Right"
+[animation4s]: ./test_videos_output/solidWhiteRight_segment.gif "Solid White Right (segment)"
 
 [thumbnail1]: https://i.ytimg.com/vi/FqoUvQuTzrk/hqdefault.jpg "Thumbnail on Youtube - challenge"
 [thumbnail2]: https://i.ytimg.com/vi/_JbjcV4_fvA/hqdefault.jpg "Thumbnail on Youtube - challenge resize"
@@ -113,7 +115,7 @@ As part of the description, explain how you modified the draw_lines() function.
 
 | /test_videos_output/solidWhiteRight_segment.mp4    | /test_videos_output/solidWhiteRight.mp4      |
 |:--------------------------------------------------:|:--------------------------------------------:|
-| [![solidWhiteRight_segment](https://i.ytimg.com/vi/xFnWUE2QpV8/hqdefault.jpg)](http://www.youtube.com/watch?v=xFnWUE2QpV8) | [![solidWhiteRight](https://i.ytimg.com/vi/QPtgOCh-ukc/hqdefault.jpg)](http://www.youtube.com/watch?v=QPtgOCh-ukc) |
+| [![alt text][animation4s]](http://www.youtube.com/watch?v=xFnWUE2QpV8) | [![alt text][animation4]](http://www.youtube.com/watch?v=QPtgOCh-ukc) |
 
 * From /test_videos/solidYellowLeft.mp4
 
