@@ -14,8 +14,12 @@
 #
 # Example:
 # $./video2gif.sh 0:00 challenge.mp4 5 15 640x360 challenge.gif
-echo "Installing ffmpeg"
-sudo apt-get install ffmpeg
+if ! [ -x "$(command -v ffmpeg)" ]; then
+	echo "ffmpeg is not installed. Start to install ffmpeg ..."
+	sudo apt-get install ffmpeg
+else
+	echo "ffmpeg is already installed. No need to install again."
+fi
 echo "-----------------"
-echo "Starting to change video to animated gif"
+echo "Start to change video to animated gif ..."
 ffmpeg -ss $1 -i $2 -t $3 -an -r $4 -s $5 -f gif $6
